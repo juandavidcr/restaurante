@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 1.2em;
+}
+
+ @font-face {
+font-weight:normal;
+font-style:normal;
+}
+.colorOrange{
+	color: #060;
+	min-width:600px;
+	height: inherit;
+}
+.pie{
+	
+	clear: both;
+	position: relative;
+	margin-top: 80px;
+	margin-left: 10px;
+}
+.formulario>input{
+  width: 400px;
+}
+
+.logo{
+	float: left;
+	width:25%;
+	height: auto;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 500px;
+}
+
+h1{
+color:#F60;
+margin:0.25em auto;
+text-align:center;
+text-shadow: 5px 5px 6px #FF0400;
+text-shadow: 5px 5px 10px rgba(255,255,255,0.5em);
+}
+
+header,nav,footer {
+background:#DEDEDE;
+border-radius:0.5em;
+margin: 0.5em auto;
+max-width:960px;
+padding:0.25em;
+text-align:center;
+}
+
+section.contenedorPersonalizado{
+margin:0.2em auto;
+max-width:960px;
+padding:0;
+text-align:center;
+border-radius: 10px auto;
+
+}
+
+section#principal, aside{
+background:#F1F1F1;
+border-radius:0.5em;
+display: inline-block;
+margin:0.25em auto;
+max-width:960px;
+min-height:200px;
+padding:0.25em;
+text-align:center;
+vertical-align:top;
+width:65%;
+}
+
+aside{
+width:30%;
+}
