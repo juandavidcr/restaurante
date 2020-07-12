@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `comensales` (
   FOREIGN KEY (idUsuario) REFERENCES usuarios(id)
 );
 INSERT INTO `comensales` ( `idUsuario`, `nombreCompleto`, `telefono`, `direccion`) 
-VALUES ( 1, 'Juan David Contreras Ruiz', '5545348744','Calle 7 92-9, col. san pedro de los pinos, Benito Juarez, 03800');
+VALUES ( 1, 'Juan David Contreras Ruiz', '5545348744','Calle 000000, col. sa, Benito Juarez, 000000');
 
 
 CREATE TABLE IF NOT EXISTS `comanda` (
